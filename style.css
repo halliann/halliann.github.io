@@ -1,7 +1,7 @@
 /* || General */
 
 * {
-    background-color: hsl(0, 0%, 8%);
+    background-color: hsl(244, 67%, 60%);
     font-family: "Inter", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -20,51 +20,51 @@ main {
     margin: auto;
     margin-top: 10%;
     margin-bottom: 10%;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 
 /* || Profile Details */
 
 header {
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 .profilePicture {
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 h1 {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 5px;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 h2 {
     color: hsl(75, 94%, 57%);
     font-weight: 600;
     margin-top: 5px;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 p {
     margin-bottom: 5px;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 
 /* || Social Links */
 
 nav {
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 li {
-   background: hsl(0, 0%, 12%); 
+   background: hsl(244, 67%, 66%); 
 }
 
 ul {
@@ -72,7 +72,7 @@ ul {
     display: grid;
     border-radius: 7%;
     gap: 15px;
-    background: hsl(0, 0%, 12%);
+    background: hsl(244, 67%, 66%);
 }
 
 .linkBoxes {
@@ -83,5 +83,5 @@ ul {
     font-weight: 600;
     z-index: 1;
     border-radius: 10px;
-    background: hsl(0, 0%, 20%);
+    background: hsl(244, 67%, 74%);
 }
