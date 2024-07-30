@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halli's Website</title>
+    <link href="website.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Website Icon -->
+    <link rel="shortcut icon" href="/resources/images/logo.jpeg" type="image/x-icon">
+</head>
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="headshot-container">
+                <a class="headshot-img" href="index.html">
+                    <img src="/resources/images/headshot.jpeg" alt="headshot">
+                </a>
+                <span class="navbar-name">Halli DiLullo</span>
+            </div>
+
+            <!-- Navbar menu-->
+            <div class="navbar-menu">
+                <ul class="navbar-options">
+                    <li class="navbar-links">
+                        <a href="index.html" id="home">Home</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#about-container" id="about">About</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#projects-heading" id="projects">Projects</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#contact-form" id="contact">Contact</a>
+                    </li>
+                    <li class="navbar-links">
+                        <a href="#" id="resume">Resume</a>
+                    </li>
+                </ul>
+                <div class="navbar-menu-ham">
+                    <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </div>
+                <div class="navbar-menu-close">
+                    <span><i class="fa fas fa-times"></i></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-heading">Hi, I'm Halli DiLullo</h1>
+            <p class="hero-text">Jill-of-all-Trades, Web Developer, content creator, animal activist, sewist, certified yoga instructor</p>
+        </div>
+
+        <!-- Float button social links -->
+        <section class="socials-container">
+            <button class="socials-button">
+                <a href="https://github.com/halliann" target="_blank" rel="noopener noreferrer" class="scroll-page">
+                    <i href="fab fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hallidilullo/" target="_blank" rel="noopener noreferrer" class="scroll-page">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.tiktok.com/@thehalliann" target="_blank" rel="noopener noreferrer" class="scroll-page">
+                    <i class="fab fa-tiktok" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/thehalliann/" target="_blank" rel="noopener noreferrer" class="scroll-page">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.amazon.com/shop/thehalliann" target="_blank" rel="noopener nonreferrer" class="scroll-page">
+                    <i class="fab fa-amazon" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.pinterest.com/thehalliann/" target="_blank" rel="noopener noreferrer" class="scroll-page">
+                    <i class="fab fa-pinterest" aria-hidden="true"></i>
+                </a>
+            </button>
+        </section>
+    </section>
+
+    <!-- About -->
+    <section class="about-container">
+        <div class="about-title">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- About Center -->
+        <div class="about-center section-center">
+            <!-- Button container -->
+            <div class="btn-container">
+                <button class="tab-btn active" data-id="history">History</button>
+                <button class="tab-btn" data-id="vision">Vision</button>
+                <button class="tab-btn" data-id="goals">Goals</button>
+            </div>
+            <div class="about-content">
+                <div class="content active" id="history">
+                    <h5>History</h5>
+                    <p>History goes here.</p>
+                </div>
+                <div class="content" id="vision">
+                    <h5>Vision</h5>
+                    <p>Vision goes here.</p>
+                </div>
+                <div class="content" id="goals">
+                    <h5>Goals</h5>
+                    <p>Goals go here.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Skills list -->
+        <div class="skills-list">
+            <h3 class="skills-heading">My skills</h3>
+            <ul class="skills">
+                <li class="skill">HTML</li>
+                <li class="skill">CSS</li>
+                <li class="skill">Javascript</li>
+                <li class="skill">GIT</li>
+                <li class="skill">Github</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <article class="projects-heading">
+            <h2 class="projects-title">Projects</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, explicabo!</p>
+        </article>
+        <article class="projects-menu">
+            <!-- carousel nav left -->
+            <button i class="fa-2x fas fa-arrow-left arrow-btn" data-id="prev"></button>
+            <!-- projects -->
+            <div class="project-slides">
+                <div class="slide active" data-id="one">
+                    <h5>Project One</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, aliquam.</p>
+                </div>
+                <div class="slide" data-id="two">
+                    <h5>Project Two</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, aliquam.</p>
+                </div>
+                <div class="slide" data-id="three">
+                    <h5>Project Three</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, aliquam.</p>
+                </div>
+            </div>
+            <!-- carousel nav right -->
+            <button i class="fa-2x fas fa-arrow-right arrow-btn" data-id="next"></button>
+        </article>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+
+            <!-- Form input -->
+            <form id="form" class="form">
+                    <div class="contact-form-field">
+                        <!-- name -->
+                        <label class="contact-form-label" for="name">Name</label>
+                        <input required placeholder="Enter Your Name" id="name" name="name" type="text" class="form-input" autocomplete="off">
+                    </div>
+                    <div class="contact-form-field">
+                        <!-- email -->
+                        <label class="contact-form-label" for="name">Email</label>
+                        <input required placeholder="Enter Your Email" id="email" name="email" type="text" class="form-input" autocomplete="off">
+                    </div>
+                    <div class="contact-form-field">
+                        <!-- message -->
+                        <label class="form-label" for="message">Message</label>
+                        <textarea required placeholder="Enter Your Message" rows="15" col="30" id="message" name="message" class="form-input"></textarea>
+                    </div>
+                    <!-- input button -->
+                    <button class="submit-btn" id="submit" type="submit" name="submit">Send Message</button>
+                    <!-- submit successful message -->
+                    <div class="message-sent" id="message-sent"></div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <!-- <div class="footer-logo-img">
+                <a><img src=""></a>
+            </div> -->
+            <div class="footer-content">
+                <h4 class="footer-text" id="name">Halli DiLullo</h5>
+                <h5 class="footer-text" id="tagline">Tagline</h5>
+                <p class="footer-text" id="location">Huntsville, AL</p>
+                <p class="footer-text" id="made">Made by Halli DiLullo</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="website.js"></script>
+</body>
+</html>
