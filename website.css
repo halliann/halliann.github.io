@@ -65,6 +65,7 @@ img {
 
 .headshot-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
@@ -126,6 +127,8 @@ img {
 
 /* Hero */
 .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
     position: relative;
     background-image: url(/resources/images/keyboard.jpg);
     background-size: cover;
@@ -178,13 +181,17 @@ img {
 }
 
 /* Social Links */
+.socials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
 .socials-links {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    position: absolute;
     background: none;
-    right: 0;
     margin: 5px;
     box-shadow: 2px 2px 2px rgba(0,0,0,0,4);
     z-index: 2;
